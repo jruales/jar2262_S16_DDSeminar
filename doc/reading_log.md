@@ -1,5 +1,6 @@
 # 2016-01-29 Bengio et al., 2003.
 *A Neural Probabilistic Language Model* by Yoshua Bengio, Réjean Ducharme, Pascal Vincent, and Christian Jauvin. All from Université de Montréal.
+http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
 
 ## My summary of the abstract before reading the paper
 It is difficult to know how likely a sentence is because of the curse of dimensionality: it might be very unlikely that a sentence will repeat in a corpus of text, and a test sentence might not be in the training data. N-gram models, a previous approach, makes a Markov assumption in order to overcome the curse of dimensionality. This paper, on the other hand, **learns a distributed representation for words** [I'm not sure yet what they mean by a *distributed representation*, but I will find out soon enough]. At the same time, it learns the probability distribution (i.e. a statistical language model) of sequences of words as a function of the distributed representations for words. It uses a neural network to represent this probability distribution (hence the title of the paper).
