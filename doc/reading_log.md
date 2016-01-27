@@ -16,3 +16,14 @@ The *disadvantage* of the proposed approach is that:
 * It is challenging to train the model within a reasonable time [I interpret this to mean it takes weeks or even months to train the model] because the model is large, containing *millions* of parameters.
 
 [Based on reading this abstract, it seems like they will consider sentences as bags of words and learn some form of word vectors that will help them learn the probability distributions. If this is the case, wouldn't there be a problem distinguishing a grammatically correct sentence from one that isn't? Given that they mention that the model beats n-gram, they can't be doing bag of words. But in that case are they using a recurrent net? or how do they make their input the same size every time to fit it in the neural net? Additionally, what do they mean by a *distributed representation*?]
+
+## Distributed Representation
+Definition from the U Alberta dictionary of cognitive science (http://www.bcp.psych.ualberta.ca/~mike/Pearl_Street/Dictionary/contents/D/distributed.html):
+
+> A distributed representation is a concept that is central to connectionism. In a connectionist network, a distributed representation occurs when some concept or meaning is represented by the network, but that meaning is represented by a pattern of activity across a number of processing units (Hinton et al, 1986). In other words, the meaning is not locally represented by a single unit that is analogous to a "grandmother cell".
+
+> One advantage of distributed representations is that they provide damage resistance and graceful degradation (Medler et al., 2005). A disadvantage of such representations is that they make the internal structure of a trained network very difficult to interpret (Dawson, 2004).
+
+Basically when this paper says Distributed Representation it just means a word vector that has been learned as part of a neural network.
+
+## Response
