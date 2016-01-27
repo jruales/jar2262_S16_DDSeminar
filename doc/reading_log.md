@@ -8,7 +8,7 @@ It is difficult to know how likely a sentence is because of the curse of dimensi
 The advantages of the proposed approach are that it:
 
 * Generalizes well because even if a sentence hasn't been seen before, it will be given a high probability score if the words it contains have a "nearby representation" to words in a training sentence.
-* Significantly improves on state-of-the-art n-gram models of 2003 [I think that the current state of the art uses RNNs?]
+* Significantly improves on state-of-the-art n-gram models of 2003 [I think that the current state of the art uses Recursive or Recurrent Neural Networks?]
 * Allows to take advantage of longer contexts, in contrast with n-grams, which only look at n words behind the current one.
 
 The *disadvantage* of the proposed approach is that:
