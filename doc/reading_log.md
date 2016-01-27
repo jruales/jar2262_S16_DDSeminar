@@ -1,1 +1,17 @@
 # 2016-01-29 Bengio et al., 2003.
+*A Neural Probabilistic Language Model* by Yoshua Bengio, Réjean Ducharme, Pascal Vincent, and Christian Jauvin. All from Université de Montréal.
+
+## My summary of the abstract before reading the paper
+It is difficult to know how likely a sentence is because of the curse of dimensionality: it might be very unlikely that a sentence will repeat in a corpus of text, and a test sentence might not be in the training data. N-gram models, a previous approach, makes a Markov assumption in order to overcome the curse of dimensionality. This paper, on the other hand, **learns a distributed representation for words** [I'm not sure yet what they mean by a *distributed representation*, but I will find out soon enough]. At the same time, it learns the probability distribution (i.e. a statistical language model) of sequences of words as a function of the distributed representations for words. It uses a neural network to represent this probability distribution (hence the title of the paper).
+
+The advantages of the proposed approach are that it:
+
+* Generalizes well because even if a sentence hasn't been seen before, it will be given a high probability score if the words it contains have a "nearby representation" to words in a training sentence.
+* Significantly improves on state-of-the-art n-gram models of 2003 [I think that the current state of the art uses RNNs?]
+* Allows to take advantage of longer contexts, in contrast with n-grams, which only look at n words behind the current one.
+
+The *disadvantage* of the proposed approach is that:
+
+* It is challenging to train the model within a reasonable time [I interpret this to mean it takes weeks or even months to train the model] because the model is large, containing *millions* of parameters.
+
+[Based on reading this abstract, it seems like they will consider sentences as bags of words and learn some form of word vectors that will help them learn the probability distributions. If this is the case, wouldn't there be a problem distinguishing a grammatically correct sentence from one that isn't? Given that they mention that the model beats n-gram, they can't be doing bag of words. But in that case are they using a recurrent net? or how do they make their input the same size every time to fit it in the neural net? Additionally, what do they mean by a *distributed representation*?]
