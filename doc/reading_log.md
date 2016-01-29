@@ -34,3 +34,5 @@ However, instead of just using n-gram counts to calculate the probabilities (the
 The authors end up using an n value of up to 5, which is the "longer context" they mentioned in the abstract. Additionally, the authors discover that combining this neural technique with vanilla discrete n-gram probabilities via a weighted average of the language model probabilities, they get better results than using either one independently.
 
 The paper also talks about concerns of speed. Due to the large amount of parameters in the network, the authors mention that training is computationally intensive. The authors describe a way to make the computation in parallel. I believe that nowadays, the computation would be much faster using GPU computing.
+
+In the conclusion, the authors mention that the context window could be increased without increasing the training time too much by using time delayed or recurrent neural networks. This seems to have been a good idea, since RNNs seem to be popular nowadays for text and speech.
