@@ -26,4 +26,11 @@ Definition from the U Alberta dictionary of cognitive science (http://www.bcp.ps
 
 Basically when this paper says Distributed Representation it just means a word vector that has been learned as part of a neural network.
 
-## Response
+## Reading Response
+The paper uses something that looks like like an n-gram model in the sense that it assumes that the choice of each word in a text is only dependent on the choice of the previous n-1 previous words.
+
+However, instead of just using n-gram counts to calculate the probabilities (these counts get *very* sparse as n increases, even n=4 is too sparse, due to the curse of dimensionality, a curse imposed by a high-dimensionality sorceror in antiquity, in the dark ages of AI), it uses a learned, low-dimensional feature space on the words. By using a low-dimensional word embedding, the authors try to capture semantic meaning so that words that tend to be used in a similar fashion in sentences are treated similarly, even if they aren't *exactly* the same word (the n-gram count technique would be mercyless here).
+
+The authors end up using an n value of up to 5, which is the "longer context" they mentioned in the abstract. Additionally, the authors discover that combining this neural technique with vanilla discrete n-gram probabilities via a weighted average of the language model probabilities, they get better results than using either one independently.
+
+The paper also talks about concerns of speed. Due to the large amount of parameters in the network, the authors mention that training is computationally intensive. The authors describe a way to make the computation in parallel. I believe that nowadays, the computation would be much faster using GPU computing.
