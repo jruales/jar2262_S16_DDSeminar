@@ -1,4 +1,25 @@
-# 2016-01-29 Bengio et al., 2003.
+# 2016-02-05: Mikolov et al., 2013.
+*Distributed Representations of Words and Phrases and their Compositionality [a.k.a. word2vec]* by Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean. All authors from Google. Paper accepted to Neural Information Processing Systems (NIPS) 2013.
+
+* Paper's website: http://papers.nips.cc/paper/5021-di
+* Paper PDF: http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf
+
+
+# 2016-02-05: Pennington et al., 2014.
+*GloVe: Global Vectors for Word Representation* by Jeffrey Pennington, Richard Socher, and Christopher D. Manning. All authors from Stanford University.
+
+* Paper's website: http://nlp.stanford.edu/projects/glove/
+* Paper PDF: http://nlp.stanford.edu/pubs/glove.pdf
+
+
+# 2016-02-05: Arora et al., 2015.
+*RAND-WALK: A latent variable model approach to word embeddings* by Sanjeev Arora, Yuanzhi Li, Yingyu Liang, Tengyu Ma, and Andrej Risteski. All authors from Princeton University. Paper accepted to Transactions of the Association for Computational Linguistics (TACL)  .
+
+*  arXiv page: http://arxiv.org/abs/1502.03520
+*  PDF: http://arxiv.org/pdf/1502.03520v5.pdf
+
+
+# 2016-01-29: Bengio et al., 2003.
 *A Neural Probabilistic Language Model* by Yoshua Bengio, Réjean Ducharme, Pascal Vincent, and Christian Jauvin. All from Université de Montréal.
 http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
 
