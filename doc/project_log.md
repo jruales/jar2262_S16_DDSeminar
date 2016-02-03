@@ -1,6 +1,6 @@
 # Project: Analysis of Etymology of Spanish Words
 
-## The Problem:
+## The Problem
 
 As a native Spanish speaker, I learned as a child to consider as commonplace some words that to an English speaker seem overly formal, specific, or obscure. Words such as *utilizar* (English equivalent: "utilize"), *cotidiana* ("quotidian"), *inundar* ("to inundate"), and *mayúscula* ("majuscule"). It might be that, in terms of common words, Spanish has a stronger influence from Latin than English does, but it would be nice to quantify this and try to understand the structure that this Latin influence brings to the Spanish language.
 
