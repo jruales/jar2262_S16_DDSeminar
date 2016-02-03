@@ -2,11 +2,11 @@
 
 ## The Problem
 
-As a native Spanish speaker, I learned as a child to consider as commonplace some words that to an English speaker seem overly formal, specific, or obscure. Words such as *utilizar* (English equivalent: "to utilize"), *cotidiana* ("quotidian"), *inundar* ("to inundate"), and *mayúscula* ("majuscule") are assumed to be understood by most people. It might be that, in terms of common words, Spanish has a stronger influence from Latin than English does, but it would be nice to quantify this and try to understand the structure that this Latin influence brings to the Spanish language.
+As a native Spanish speaker, I learned as a child to consider as commonplace some words that to an English speaker seem overly formal, specific, or obscure. Words such as *utilizar* (English equivalent: "to utilize"), *cotidiana* ("quotidian"), *inundar* ("to inundate"), and *mayúscula* ("majuscule") are assumed to be understood by most people. In terms of common words, it might be that Spanish has a stronger influence from Latin than English does, but it would be nice to quantify this statement and try to understand the structure that this Latin influence brings to Spanish words.
 
-Aside from Latin, Spanish has influence from, among other, Greek, Arabic, native American languages such as Quechua and Nahuatl.
+Aside from Latin, Spanish has influence from, among others, Greek, Arabic, native American languages such as Quechua and Nahuatl.
 
-I would like to understanding the structure behind the modern Spanish language's vocabulary and how other languages (and even the Spanish of antiquity) have influenced it. In some sense, languages can be seen as evolving in a generative process, where new words that are created follow an unspoken uniformity and structure conditioned on its origins (regardless of whether it comes from the same or another language, including an older version of the same language).
+I would like to understanding the structure behind the modern Spanish language's vocabulary and how other languages (and even the old Spanish) have influenced it. In some sense, languages can be seen as evolving in a generative process, where new words that are created follow an unspoken uniformity and structure conditioned on its origins (regardless of whether it comes from the same or another language, including an older version of the same language).
 
 To understand the etymology of Spanish, there are several options in terms of models that could be built. Three examples include:
 
