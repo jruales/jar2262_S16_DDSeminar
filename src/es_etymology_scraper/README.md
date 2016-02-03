@@ -9,4 +9,4 @@ Scrapes the *Real Academia Española* (RAE, tranlation: "Royal Spanish Academy")
 |File or directory      | Description                                                          |
 |-----------------------|----------------------------------------------------------------------|
 |`./unigram_counts/`    | CREA corpus unigram count files                                      |
-|`./main.py`             | The main program                                                     |
+|`./main.ipynb`         | The main program in a Jupyter notebook                               |
