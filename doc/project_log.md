@@ -2,7 +2,7 @@
 
 ## The Problem
 
-As a native Spanish speaker, I learned as a child to consider as commonplace some words that to an English speaker seem overly formal, specific, or obscure. Words such as *utilizar* (English equivalent: "utilize"), *cotidiana* ("quotidian"), *inundar* ("to inundate"), and *mayúscula* ("majuscule"). It might be that, in terms of common words, Spanish has a stronger influence from Latin than English does, but it would be nice to quantify this and try to understand the structure that this Latin influence brings to the Spanish language.
+As a native Spanish speaker, I learned as a child to consider as commonplace some words that to an English speaker seem overly formal, specific, or obscure. Words such as *utilizar* (English equivalent: "to utilize"), *cotidiana* ("quotidian"), *inundar* ("to inundate"), and *mayúscula* ("majuscule"). It might be that, in terms of common words, Spanish has a stronger influence from Latin than English does, but it would be nice to quantify this and try to understand the structure that this Latin influence brings to the Spanish language.
 
 Aside from Latin, Spanish has influence from, among other, Greek, Arabic, native American languages such as Quechua and Nahuatl.
 
