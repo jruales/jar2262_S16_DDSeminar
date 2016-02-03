@@ -19,6 +19,9 @@ To understand the etymology of Spanish, there are several options in terms of mo
 ### Etymology Lookup
 * The *Real Academia Española* (RAE, English:"Royal Spanish Academy") has one of the most prestigious Spanish dictionaries available online at http://dle.rae.es/ . This dictionary contains the etymology for many (not all) of its entries and should be relatively simple to scrape for data.
 * Wikipedia's lists of Spanish etymology: https://en.wikipedia.org/wiki/Influences_on_the_Spanish_language#Lists_of_Spanish_etymology
+* https://es.wikipedia.org/wiki/Anexo:Quechuismos_en_el_idioma_espa%C3%B1ol
+* https://es.wikipedia.org/wiki/Anexo:Nahuatlismos_en_el_idioma_espa%C3%B1ol
+* https://es.wikipedia.org/wiki/Americanismo_(ling%C3%BC%C3%ADstica)
 * https://en.wikipedia.org/wiki/Latin_influence_in_English
 
 ### N-Gram Counts
