@@ -11,6 +11,11 @@
 * Paper's website: http://nlp.stanford.edu/projects/glove/
 * Paper PDF: http://nlp.stanford.edu/pubs/glove.pdf
 
+## Reading Response
+
+The paper explains previous efforts to create a system that learns word vectors that support semantical arithmetic. It then describes conditions under which this arithmetic is possible and describes a new system do do this in a better way than it was done before, achieving state of the art in word analogy tasks.
+
+Previous methods used either global matrix factorization methods or local context methods.
 
 # 2016-02-05: Arora et al., 2015.
 **RAND-WALK: A latent variable model approach to word embeddings** by Sanjeev Arora, Yuanzhi Li, Yingyu Liang, Tengyu Ma, and Andrej Risteski. All authors from Princeton University. Paper accepted to Transactions of the Association for Computational Linguistics (TACL)  .
